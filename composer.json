@@ -1,0 +1,14 @@
+{
+    "name": "dialogue1/amity-wordpress-subscribe",
+    "description": "Wordpress plugin, offering a sidebar widget to let visitors subscribe to amity.",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "dialogue1/amity-client": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "dialogue1\\amity\\": "src/"
+        }
+    }
+}
